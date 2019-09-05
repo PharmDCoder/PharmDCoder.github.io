@@ -1,1 +1,2 @@
-# PharmDCoder.github.io
+# Responsive-Portfolio
+Homework 2-B
