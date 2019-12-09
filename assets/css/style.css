@@ -1,5 +1,93 @@
-body {
-    background-image: url(../images/interlaced.png);
+body, html{
+    /* height:100%;
+    margin:0; */
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    color: #fff;
+    font-family: Avantgarde, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg-img-1,.bg-img-2,.bg-img-3 {
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-img-1{
+    background-image: url('../images/bg-img-1.jpg');
+    min-height:60vw;
+}
+
+.bg-img-2{
+    background-image: url('../images/bg-img-2.jpg');
+    min-height:40vw;
+}
+
+.bg-img-3{
+    background-image: url('../images/bg-img-3.jpg');
+    min-height: 40vw;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: 666;
+    padding: 50px 125px;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.p-text{
+    position:absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color:#f4f4f4;
+    font-size:2em;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+}
+
+.p-text .border{
+    background-color:#111;
+    color: #fff;
+    padding: 20px;
+}
+
+.contact-section {
+    padding: 0 100px;
+}
+
+#profile-pic{
+    margin-top: 30px;
+}
+
+#work-table{
+    padding: 20px 50px;
+}
+
+
+/* body {
+    background-image: url(../images/wallpaper.jpg);
     text-align: center;
     margin: 0px;
 }
@@ -234,4 +322,4 @@ td {
     .largeBox {
         padding: 10px 180px;
     }
-}
+} */
