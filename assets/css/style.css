@@ -7,6 +7,7 @@ body, html{
 }
 
 h2{
+    text-align: center;
     font-size: 2vw;
     color: #282e34;
 }
@@ -14,7 +15,11 @@ h2{
 h3{
     font-size: 1vw;
     color: #fff;
-    font-family: Avantgarde, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Cinzel', serif;
+}
+
+img{
+    padding-bottom: 30px;
 }
 
 .bg-img-1,.bg-img-2,.bg-img-3 {
@@ -46,9 +51,11 @@ h3{
 }
 
 .section-light{
+    font-family: 'Loved by the King', cursive;
+    text-align: justify;
     background-color: #f4f4f4;
     color: 666;
-    padding: 50px 125px;
+    padding: 50px 250px;
     border: 25px solid black;
 }
 

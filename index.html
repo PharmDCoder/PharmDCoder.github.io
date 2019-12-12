@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sedgwick+Ave' rel='stylesheet' type='text/css'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@latest/dist/css/glide.core.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@latest/dist/css/glide.theme.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@latest/dist/glide.min.js"></script>
@@ -26,9 +30,10 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="zoom-in" data-aos-duration="1500">
             <section class="section section-light col-12">
                 <h2>Bio</h2>
+                <br>
                 <p id="p-1">
                     Boredom is the enemy of innovation. I find it difficult to settle in to a monotonous cycle and love
                     exploring new ideas which explains the
@@ -72,31 +77,34 @@
             <div class="glide">
                 <div class="glide__track  col-12" data-glide-el="track">
                     <ul class="glide__slides">
-                        <li class="glide__slide">
+                        <li class="glide__slide" data-aos="flip-up" data-aos-duration="1500">
                             <a href="https://pharmdcoder.github.io/wordGuessGame/" target="_blank">
-                                <img src="assets/images/simpsonsWordGuessGame.png" alt="Simpson's Picture" class="img-fluid">
+                                <img src="assets/images/simpsonsWordGuessGame.png" alt="Simpson's Picture"
+                                    class="img-fluid">
                                 <h3 class="absolutePosition">Word Guess Game</h3>
                             </a>
                         </li>
-                        <li class="glide__slide">
+                        <li class="glide__slide" data-aos="flip-up" data-aos-duration="1500">
                             <a href="https://pharmdcoder.github.io/unit-4-game/" target="_blank">
                                 <img src="assets/images/starWarsRPG.png" alt="Star Wars Picture" class="img-fluid">
                                 <h3 class="absolutePosition">Star War's RPG Game</h3>
                             </a>
                         </li>
-                        <li class="glide__slide">
+                        <li class="glide__slide" data-aos="flip-up" data-aos-duration="1500">
                             <a href="https://pharmdcoder.github.io/TriviaGame/" target="_blank">
-                                <img src="assets/images/escher-sphere.jpg" alt="Escher's Sphere Picture" class="img-fluid">
+                                <img src="assets/images/escher-sphere.jpg" alt="Escher's Sphere Picture"
+                                    class="img-fluid">
                                 <h3 class="absolutePosition">Philosophy Trivia Game</h3>
                             </a>
                         </li>
-                        <li class="glide__slide">
+                        <li class="glide__slide" data-aos="flip-up" data-aos-duration="1500">
                             <a href="https://justincarlson7.github.io/lateNightBites/" target="_blank">
-                                <img src="assets/images/latenitebites_background.jpg" alt="lateNightBites" class="img-fluid">
+                                <img src="assets/images/latenitebites_background.jpg" alt="lateNightBites"
+                                    class="img-fluid">
                                 <h3 class="absolutePosition">Project 1: LateNiteBites</h3>
                             </a>
                         </li>
-                        <li class="glide__slide">
+                        <li class="glide__slide" data-aos="flip-up" data-aos-duration="1500">
                             <div class="relativePosition">
                                 <a href="https://pharmdcoder.github.io/giphyAPI/" target="_blank">
                                     <img src="assets/images/shrinkCouch.png" alt="shrink couch" class="img-fluid">
@@ -104,7 +112,7 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="glide__slide">
+                        <li class="glide__slide" data-aos="flip-up" data-aos-duration="1500">
                             <div class="relativePosition">
                                 <a href="https://pharmdcoder.github.io/train-scheduler/" target="_blank">
                                     <img src="assets/images/trainScheduler.png" alt="train scheduler" class="img-fluid">
@@ -112,7 +120,7 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="glide__slide">
+                        <li class="glide__slide" data-aos="flip-up" data-aos-duration="1500">
                             <div class="relativePosition">
                                 <a href="https://friend-finder-pharm-d-coder.herokuapp.com/" target="_blank">
                                     <img src="assets/images/friend-finder.jpg" alt="friends" class="img-fluid">
@@ -120,13 +128,13 @@
                                 </a>
                             </div>
                         </li>
-                        <li class="glide__slide">
+                        <li class="glide__slide" data-aos="flip-up" data-aos-duration="1500">
                             <a href="https://shrouded-basin-26284.herokuapp.com/" target="_blank">
                                 <img src="assets/images/hamburger.jpg" alt="friends" class="img-fluid">
                                 <h3 class="absolutePosition">sequelizedBurger</h3>
                             </a>
                         </li>
-                        <li class="glide__slide">
+                        <li class="glide__slide" data-aos="flip-up" data-aos-duration="1500">
                             <div class="relativePosition">
                                 <a href="https://project-2jljp.herokuapp.com/home#" target="_blank">
                                     <img src="assets/images/CNA-app.png" alt="friends" class="img-fluid">
@@ -137,8 +145,10 @@
                     </ul>
                 </div>
                 <div class="glide__arrows" data-glide-el="controls">
-                    <button class="glide__arrow glide__arrow--left bg-light text-dark" data-glide-dir="<"><</button>
-                    <button class="glide__arrow glide__arrow--right bg-light text-dark" data-glide-dir=">">></button>
+                    <button class="glide__arrow glide__arrow--left bg-light text-dark" data-glide-dir="<">
+                        <</button> <button class="glide__arrow glide__arrow--right bg-light text-dark"
+                            data-glide-dir=">">>
+                    </button>
                 </div>
                 <div class="glide__bullets" data-glide-el="controls[nav]">
                     <button class="glide__bullet" data-glide-dir="=0"></button>
@@ -197,6 +207,7 @@
         </div>
     </div>
     <script>
+        AOS.init();
         new Glide('.glide', {
             type: 'carousel',
             startAt: 0,
