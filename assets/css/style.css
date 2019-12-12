@@ -53,10 +53,11 @@ img{
 .section-light{
     font-family: 'Loved by the King', cursive;
     text-align: justify;
-    background-color: #f4f4f4;
+    background-image: url(../images/wallpaper.jpg);
     color: 666;
     padding: 50px 250px;
     border: 25px solid black;
+
 }
 
 .section-dark{
@@ -75,10 +76,15 @@ img{
     text-transform: uppercase;
 }
 
-.p-text .border{
+.border{
     background-color:#111;
     color: #fff;
     padding: 20px;
+}
+
+.sectionHead {
+    background-color:#6DB3AC;
+    font-family: 'Rock Salt', cursive;
 }
 
 .contact-section {
@@ -90,6 +96,12 @@ img{
     color: #ddd; 
     text-align: center;
     padding: 50px 80px;
+}
+
+#p-1{
+    padding:30px;
+    background-color: #fff;
+    border: #746c6c solid 10px;
 }
 
 #profile-pic{
